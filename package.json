@@ -1,0 +1,36 @@
+{
+  "name": "pairleroy",
+  "version": "1.3.2",
+  "type": "module",
+  "description": "Generateur de grille hexagonale Pairleroy",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "build:dev": "node ./scripts/build.js",
+    "build:prod": "node ./scripts/build.js --prod",
+    "build:analyze": "node ./scripts/build.js --analyze",
+    "clean": "node ./scripts/clean.js",
+    "optimize:svg": "node ./scripts/optimize-svg.js"
+  },
+  "devDependencies": {
+    "svgo": "^3.0.5"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renoult/Pairleroy.git"
+  },
+  "keywords": [
+    "hexagon",
+    "board-game",
+    "generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renoult/Pairleroy/issues"
+  },
+  "homepage": "https://github.com/Renoult/Pairleroy#readme"
+}
